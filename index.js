@@ -12,6 +12,8 @@ for (let rep of replyList) {
   for (let _rep of replyList) {
     if (rep.reply.includes(_rep.msg)) { 
       console.log("detected loop word")
+      console.log("msg: " + _rep.msg)
+      console.log("reply: " + rep.reply)
       process.exit();
     }
   }
