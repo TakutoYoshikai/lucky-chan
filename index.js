@@ -6,7 +6,7 @@ client.on("ready", () => {
   console.log(`logged in as ${client.user.username}`)
 })
 
-const replyList = JSON.parse(fs.readFileSync("reply.json", "utf-8"))
+const replyList = require("./reply.json")
 
 for (let rep of replyList) {
   for (let _rep of replyList) {
