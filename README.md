@@ -1,5 +1,5 @@
 # lucky-chan
-A simple discord bot framework.
+lucky-chan is a simple discord bot framework. 
 
 ## Prerequisites
 Node.js
